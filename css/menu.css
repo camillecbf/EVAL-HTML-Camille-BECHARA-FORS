@@ -1,0 +1,262 @@
+body{
+    background:url(../img/starbucks.bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    width: 95vw;
+    margin-top: 30px; 
+}
+
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 75%;
+}
+.logo{
+    width: 100px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 1px;
+    padding-left: 5vw;
+    width: 50%; 
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none; 
+}
+
+.connexion{
+    list-style-type: none;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+    width: 55%;
+}
+.connexion a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#seco{
+    margin-right: 50px;
+}
+
+header{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header h2{
+    padding: 25px;
+}
+
+header h3{
+    padding: 25px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boisson{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(4, 51, 4);
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.boisson a{
+    color: rgb(4, 51, 4);
+    margin-top: 25px;
+}
+
+.boisson img{
+    width: 500px;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(4, 51, 4);
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.food a{
+    color: rgb(4, 51, 4);
+    margin-top: 25px;
+}
+
+.food img{
+    width: 500px;
+}
+
+.oleato{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(4, 51, 4);
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.oleato a{
+    color: rgb(4, 51, 4);
+    margin-top: 25px;
+}
+
+.oleato img{
+    width: 500px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(4, 51, 4);
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.home a{
+    color: rgb(4, 51, 4);
+    margin-top: 25px;
+}
+
+.home img{
+    width: 500px;
+}
+
+.mug{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: rgb(4, 51, 4);
+    background-color: aliceblue;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mug a{
+    color: rgb(4, 51, 4);
+    margin-top: 25px;
+}
+
+.mug img{
+    width: 500px;
+}
+
+@media all and (max-device-width: 320px){
+    main{
+        margin-left: 0px;
+        margin-top: 33px;
+    }
+
+    h1{
+        margin-top: 48px;
+    }
+
+    .boisson{
+        width: 150px;
+        padding: 67px;
+    }
+    .boisson img {
+        width: 220px;
+    }
+
+    .food{
+        width: 150px;
+        padding: 67px;
+        margin-top: 50px;
+    }
+    .food img {
+        width: 220px;
+    }
+
+    .oleato{
+        width: 150px;
+        padding: 67px;
+        margin-top: 50px;
+    }
+    .oleato img {
+        width: 220px;
+    }
+
+    .home{
+        width: 150px;
+        padding: 67px;
+        margin-top: 50px;
+    }
+    .home img {
+        width: 220px;
+    }
+
+    .mug{
+        width: 150px;
+        padding: 67px;
+        margin-top: 50px;
+    }
+    .mug img {
+        width: 220px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        width: 0%;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+    .connexion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 37%;
+        line-height: 25px;
+        margin-left: 93px;
+        margin-right: 4px;
+    }
+    nav{
+        display: flex;
+        width: 98vw;
+        margin-top: 20px; 
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .logo{
+        margin-top: 4px;
+        margin-right: 13px;
+        width: 60px;
+        margin-left: 17px;
+        min-width: 20%;
+    }
+
+    }
+    
+

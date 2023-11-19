@@ -1,0 +1,193 @@
+body{
+    background:url(../img/starbucks.bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    width: 95vw;
+    margin-top: 30px; 
+}
+
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 75%;
+}
+.logo{
+    width: 100px;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 1px;
+    padding-left: 5vw;
+    width: 50%; 
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none; 
+}
+
+.connexion{
+    list-style-type: none;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 30px;
+    width: 55%;
+}
+.connexion a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#seco{
+    margin-right: 50px;
+}
+
+header{
+    display: flex;
+    
+}
+
+.frapu{
+    width: 150%;
+    margin-top: 100px;
+}
+
+.texte{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 100px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    background-color: rgb(26, 73, 26);
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    height: 20vw
+}
+
+footer a{
+    color: rgb(60, 209, 90);
+    justify-content: space-around;
+}
+
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    line-height: 32.6667px;
+}
+
+.droit{
+    display: flex;
+    flex-direction: column;
+    line-height: 32.6667px;
+}
+
+@media all and (max-device-width: 320px){
+    h1{
+        font-size: 35px;
+        margin-left: -2vw;
+    
+    }
+    .frapu{
+        width: 192px;
+        margin-top: -61vw;
+        margin-left: 23vw;
+        display: flex;
+
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 200px;
+    }
+    h2 {
+        color: aliceblue;
+        font-size: 25px;
+        margin-left: 56px;
+        margin-top: 112px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        width: 0%;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+    .connexion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 37%;
+        line-height: 25px;
+        margin-left: 93px;
+        margin-right: 4px;
+    }
+    nav{
+        display: flex;
+        width: 98vw;
+        margin-top: 20px; 
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .logo{
+        margin-top: 4px;
+        margin-right: 13px;
+        width: 60px;
+        margin-left: 17px;
+        min-width: 20%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 97vw;
+        background-color: rgb(26, 73, 26);
+        margin-top: 142px;
+        height: max-content;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        line-height: 32.6667px;
+    }
+    .droit {
+        
+        display: flex;
+        flex-direction: column;
+        line-height: 32.6667px;
+    }
+
+
+}
