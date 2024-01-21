@@ -1,0 +1,151 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.slide-dw {
+    background-image: url('img/telechargement.jpg');
+    background-size: cover;
+}
+
+.subtitle {
+    color: #292929;
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    margin-left: 650px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: #292929;
+    text-transform: lowercase;
+    margin-left: 700px;
+}
+
+body {
+    position: relative;
+    height: 100%;
+  }
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-top: 500px;
+
+}
+
+body .swiper-pagination-bullet-active {
+    background: rgb(22, 95, 7);
+}
+
+body .swiper-button-next,
+body .swiper-button-prev {
+    color: rgb(22, 95, 7);
+}
+
+.swiper-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.swiper-slide.slide-cl {
+    background:url(../img/cool_lime.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.swiper-slide.slide-vb {
+    background:url(../img/very_berry.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.swiper-slide.slide-dm {
+    background:url(../img/dragon_mango.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.ddiv {
+    height: 55vh;
+    width: 100%;
+}
+
+.portfolio {
+    padding: 80px 40px;
+    background-color: #F6F8FA;
+}
+
+.portfolio-elements {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-header {
+    padding: 20px 40px;
+
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222D3B;
+    padding: 20px 40px;
+}
+
+.card-axe {
+    font-size: 14px;
+    color: #87878a;
+    margin-top: 6px;
+}
+
+.card img {
+    display: block;
+    width: 100;
+    height: 300px;
+    object-fit: cover;
+}
+

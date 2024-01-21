@@ -60,6 +60,11 @@ header{
     
 }
 
+#star {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .frapu{
     width: 150%;
     margin-top: 100px;
@@ -70,14 +75,14 @@ header{
     margin-left: 30px;
 }
 
-h1{
+.texte h1{
     color: aliceblue;
     font-size: 100px;
     margin-left: 30px;
     margin-bottom: 15px;
 }
 
-h2{
+.texte h2{
     color: aliceblue;
     font-size: 50px;
     margin-left: 150px;
@@ -113,7 +118,120 @@ footer a{
     line-height: 32.6667px;
 }
 
-@media all and (max-device-width: 320px){
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.accordeon {
+    border: 1px solid rgba(146, 146, 146, 0.3);
+    width: 80%;
+    max-width: 600px;
+    margin: 10px auto;
+    color: white;
+}
+
+.titre {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(146, 146, 146, 0.3);
+}
+
+.contenu {
+    padding: 0 20px;
+    height: 0;
+    visibility: hidden
+}
+
+#fleche {
+    width: 50px;
+    height: 50px;
+}
+
+.titre img {
+    width: 20px;
+    height: 20pc;
+    transition: 0.4s;
+}
+
+.accordeon.open .titre img {
+    transform-origin: center;
+    transform: rotate(90deg);
+}
+
+.contenu {
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.4s;
+}
+
+.accordeon.open .contenu {
+    padding: 30px 20px;
+    height: auto;
+    visibility: visible;
+}
+
+
+p.darkmode {
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(228, 255, 216);
+    margin-left: 30px;
+    color: rgb(16, 43, 16);
+}
+
+p.darkmode:hover {
+    color:rgb(228, 255, 216);
+    background-color: rgb(16, 43, 16);
+  }
+
+
+body.darkmode {
+    background-color: rgb(16, 43, 16);
+    background-image: none;
+    transition: 0.3s ease;
+}
+
+.darkmode {
+    color: rgb(113, 145, 83);
+}
+
+.texte.darkmode {
+    background-color: rgb(25, 48, 10);
+    opacity: calc(750%);
+}
+
+.texte.darkmode h1{
+    color: rgb(227, 255, 204);
+}
+
+.navbar.darkmode {
+    background-color: rgb(54, 88, 38);
+  }
+
+.navbar.darkmode a{
+    color: rgb(198, 255, 180);
+  }
+.navbar.darkmode #star{
+    color: rgb(198, 255, 180);
+  }
+
+
+
+
+
+
+/*responsive : */
+/*@media all and (max-device-width: 320px){
     h1{
         font-size: 35px;
         margin-left: -2vw;
@@ -190,4 +308,4 @@ footer a{
     }
 
 
-}
+}*/

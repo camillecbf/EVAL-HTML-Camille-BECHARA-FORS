@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="img/Starbucks-logo.png" alt="logo"></a>
+        </div>
+        <div class="navbar">
+            <a href="https://www.starbucks.fr/nos-cafes">Nos cafés</a>
+            <a href="menu.html">Menus</a>
+            <a href="https://www.starbucks.fr/delivers">Livraison</a>
+            <a href="https://www.starbucks.fr/service-client">Service client</a>
+            <a href="formulaire.html">Formulaire</a>
+        </div>
+        
+        <div class="connexion">
+            <a id="seco" href="seconnecter.html">Se connecter</a>
+            <a href="https://www.starbucks.fr/account/create">Rejoindre maintenant !</a>
+        </div>
+    </nav>
+    <header>Bossez chez nous !</header>
+
+        <div class="message-error">
+            <ul></ul>
+        </div>
+        <div class="message-success">
+            Formulaire envoyé !
+        </div>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+
+            <div class="nomprenom">
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prénom">
+                </div>
+                <div>
+                    <label for="nom">Nom de famille</label>
+                    <input type="text" id="nom" name="nom" placeholder="Entrez votre nom de famille">
+                </div>
+            </div>
+
+            <div class="mailmdpsm">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Entrez votre email">
+            </div>
+            <div class="mailmdpsm">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" placeholder="Créez votre mot de passe">
+            </div>
+            <div class="mailmdpsm">
+                <label for="password">Mot de passe encore une fois</label>
+                <input type="password" id="password2" name="password2" placeholder="Confirmez votre mot de passe">
+            </div>
+            <div class="mailmdpsm">
+                <label for="moisAnnee">Mois et année de naissance</label>
+                <input type="month" id="mois-annee" name="mois-annee" placeholder="Entrez votre mois et année de naissance">
+            </div>
+            <div class="mailmdpsm">
+                <label for="genre-select">Choisissez votre genre:</label>
+                    <select id="genre-select">
+                    <option value=""></option>
+                    <option value="femme">Femme</option>
+                    <option value="homme">Homme</option>
+                    </select>
+            </div>
+            
+            <div >
+                <h2>Lettre de motivation:</h2>
+                <label for="motivation"></label>
+                <input type="text" id="motivation" name="motivation" placeholder="Ecrivez pourquoi vous souhaitez nous rejoindre !" required>
+            </div>
+
+            <p>Parmis les 3 Starbucks ci-dessous, lequel est votre favori ?</p>
+            <div>
+
+                <label for="choix">Cool Lime</label>
+                <input type="radio" class="choix" name="choix" />
+
+                <label for="choix">Very Berry</label>
+                <input type="radio" class="choix" name="choix" />
+
+                <label for="choix">Dragon Mango</label>
+                <input type="radio" class="choix" name="choix" />
+            </div>
+
+            <div class="submit">
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+                <div>
+                    <input type="reset" value="Réinitialiser">
+                </div>
+            </div>
+            
+        </form>
+
+    
+    <script src="formulaire.js"></script>
+</body>
+</html>

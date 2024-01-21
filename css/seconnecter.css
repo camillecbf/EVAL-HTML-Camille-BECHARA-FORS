@@ -68,6 +68,8 @@ main{
     border-radius: 20px;
     padding: 60px;
     align-items: center;
+    justify-content: center;
+    
 }
 
 .connection h2{

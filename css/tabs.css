@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(243, 255, 240);
+    font-family: sans-serif;
+}
+.tabli {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 50px;
+    
+}
+
+.tab {
+    padding: 30px 20px;
+    background-color: rgb(161, 190, 143);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.tab:hover {
+    background-color: rgb(153, 168, 148);
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+.tab-active {
+    padding: 30px 20px;;
+    background-color: rgb(106, 126, 99);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+    margin-left: 8%;
+    margin-top: 50px;
+    font-size: 20px;
+}
